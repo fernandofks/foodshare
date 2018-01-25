@@ -1,0 +1,40 @@
+.espaçamento{
+    margin:10px;
+    padding:10px;
+    border-radius:10px;
+    border:0px;
+}
+
+.diagramacao{
+    display:flex;
+    justify-content: space-around;
+    z-index: 1;
+    background-color: transparent; 
+    position:absolute;
+    margin-top: 100px;
+    left: 40%;
+    
+}
+
+img{
+    z-index: 0;
+    width:100vW;
+}
+
+.embaixo{
+   
+    position: absolute;
+    z-index: -1;
+}
+
+body{
+    background-color: transparent;
+    color: white;
+    display:flex;
+}
+
+.botão{
+
+    color:white;
+    background-color: blue;
+}

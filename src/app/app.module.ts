@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { BComponent } from './b/b.component';
+import { VendaFormsComponent } from './venda-forms/venda-forms.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BComponent,
+    VendaFormsComponent
   ],
   imports: [
     BrowserModule
