@@ -1,0 +1,30 @@
+.block{
+    display:flex;
+    align-content: center;
+    align-items: center;
+}
+
+.espaçamento{
+    margin:10px;
+    padding:10px;
+    border-radius:10px;
+    border:0px;
+}
+
+.diagramacao{
+    display:flex;
+    justify-content: space-around;
+    z-index: 2;
+    background-color: transparent; 
+    position:absolute;
+    margin-top: 100px;
+    left: 40%;
+}
+     
+
+
+.botão{
+
+    color:white;
+    background-color: blue;
+}

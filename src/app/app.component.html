@@ -1,2 +1,31 @@
-<app-venda-forms></app-venda-forms>
+<app-card [dadosCard]="dados"></app-card>
+
+<div class="diagramacao">
+    <form>
+        <input   type="text" class="espaçamento" placeholder="Nome"> 
+        <br>
+        <input type="tel" class="espaçamento" placeholder="Telefone">
+        <br>
+        <input  type="text" class="espaçamento" placeholder="Endereço">
+        <br>
+        <input type="text" class="espaçamento" placeholder="Tipo de Comida">
+        <br>
+        <input  type="text" class="espaçamento" placeholder="Data e Horário">
+        <br>
+        <input [(ngModel)] = "dados.comida" name="comida" type="text" class="espaçamento" placeholder="Comida">
+        <br>
+        <input  [(ngModel)] = "dados.preco" name="comida2" type="text" class="espaçamento" placeholder="Preço">
+        <br>
+        <input   [(ngModel)] = "dados.descricao" name="comida4" type="text-area" class="espaçamento" placeholder="Descrição">
+        <br>
+        <input  [(ngModel)] = "dados.imagem" name="comida3" type="text" class="espaçamento" placeholder="URL da Imagem">
+        <br>
+        <button (click)="inserirDados()" class="espaçamento botão">Enviar</button>
+    </form>
+</div>
+
+    
+    
+
+
 
