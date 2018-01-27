@@ -1,3 +1,8 @@
+.fixacao{
+    position:fixed;
+    z-index:1;
+}
+
 .block{
     display:flex;
     align-content: center;
