@@ -3,8 +3,5 @@ body{
     background-color: transparent;
     color: white;
     display:flex;
-    height: 20px;
-    background-image: url("assets/chopp.jpg");
-    background-repeat: no-repeat;
-    
+    height: 20px; 
 }

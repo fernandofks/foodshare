@@ -1,4 +1,11 @@
-<app-card [dadosCard]="dados"></app-card>
+
+<div class="fixacao">
+<app-barra></app-barra>
+</div>
+<div class="background_organizacao">
+    <app-card *ngFor="let card of lista" [dadosCard]="card"></app-card>    
+</div>
+
 
 <div class="diagramacao">
     <form>

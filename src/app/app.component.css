@@ -11,20 +11,28 @@
     border:0px;
 }
 
+.background_organizacao{
+
+    padding-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-image: url("../assets/comendo2.jpg");
+    background-size:100%;
+    width: 100%;
+}
+
+
 .diagramacao{
     display:flex;
     justify-content: space-around;
-    z-index: 2;
-    background-color: transparent; 
     position:absolute;
-    margin-top: 100px;
-    left: 40%;
+    background-image: url("../assets/chopp.jpg");
+    background-size:100%;
+    width: 100%;
 }
      
-
-
 .botão{
-
     color:white;
-    background-color: blue;
+    background-color: red;
 }

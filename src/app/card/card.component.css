@@ -1,6 +1,8 @@
 .card{
     border-radius: 50px 50px 50px 50px;
     color:black;
+    margin:2rem;
+
 }
 
 .card-img-top{
@@ -9,6 +11,12 @@
 
 .btn{
 
-    background-color: blue;
+    background-color: red;
+   
     
+}
+
+.card-body{
+
+    margin:0.rem;
 }
