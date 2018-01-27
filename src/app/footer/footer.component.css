@@ -1,0 +1,31 @@
+
+footer {
+    position: relative;
+    background-color: grey;
+    border-color: black;
+   }
+   .logo {
+      margin-left: 20px;
+   
+      
+   }
+   
+   .coluna123{
+      display: inline-block;
+      margin: 5px 130px;
+      padding: 0px;
+      font-family: verdana;
+   }
+   
+   .icones{
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+      margin-right: 1%;
+      font-size: 3em;
+   }
+   
+   .fim{
+      display: flex;
+      justify-content: center;
+   }

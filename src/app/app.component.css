@@ -30,14 +30,22 @@
 
 .diagramacao{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     position:absolute;
     background-image: url("../assets/chopp.jpg");
     background-size:100%;
     width: 100%;
+    height:100%;
+    flex-direction: column;
+    
+    
 }
      
 .botão{
     color:white;
     background-color: red;
+}
+
+form{
+    padding-left:40%;
 }

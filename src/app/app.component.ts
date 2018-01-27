@@ -25,4 +25,10 @@ export class AppComponent {
     let dadosString = JSON.stringify(this.lista);
     localStorage.setItem('cards', dadosString);
   }
+
+  limparDados(){
+    this.lista=[];
+    localStorage.clear();
+  }
+
 }

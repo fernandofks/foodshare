@@ -15,8 +15,6 @@
         <br>
         <input  type="text" class="espaçamento" placeholder="Endereço">
         <br>
-        <input type="text" class="espaçamento" placeholder="Tipo de Comida">
-        <br>
         <input  type="text" class="espaçamento" placeholder="Data e Horário">
         <br>
         <input [(ngModel)] = "dados.comida" name="comida" type="text" class="espaçamento" placeholder="Comida">
@@ -28,8 +26,12 @@
         <input  [(ngModel)] = "dados.imagem" name="comida3" type="text" class="espaçamento" placeholder="URL da Imagem">
         <br>
         <button (click)="inserirDados()" class="espaçamento botão">Enviar</button>
+        <button (click)="limparDados()" class="espaçamento botão">Limpar</button>
     </form>
+    <app-footer></app-footer>
 </div>
+
+
 
     
     

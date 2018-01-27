@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import {FormsModule} from "@angular/forms";
 import { BarraComponent } from './barra/barra.component';
+import { TComponent } from './t/t.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -15,6 +17,10 @@ import { BarraComponent } from './barra/barra.component';
     CardComponent,
  
     BarraComponent,
+ 
+    TComponent,
+ 
+    FooterComponent,
    
   ],
   imports: [
