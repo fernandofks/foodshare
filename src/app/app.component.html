@@ -8,7 +8,7 @@
 
 
 <div class="diagramacao">
-    <form>
+    <form >
         <input   type="text" class="espaçamento" placeholder="Nome"> 
         <br>
         <input type="tel" class="espaçamento" placeholder="Telefone">
@@ -17,9 +17,9 @@
         <br>
         <input  type="text" class="espaçamento" placeholder="Data e Horário">
         <br>
-        <input [(ngModel)] = "dados.comida" name="comida" type="text" class="espaçamento" placeholder="Comida">
+        <input [(ngModel)] = "dados.comida" name="comida" type="text" class="espaçamento" placeholder="Comida" required>
         <br>
-        <input  [(ngModel)] = "dados.preco" name="comida2" type="text" class="espaçamento" placeholder="Preço">
+        <input  [(ngModel)] = "dados.preco" name="comida2" type="text" class="espaçamento" placeholder="Preço" required>
         <br>
         <input   [(ngModel)] = "dados.descricao" name="comida4" type="text-area" class="espaçamento" placeholder="Descrição">
         <br>

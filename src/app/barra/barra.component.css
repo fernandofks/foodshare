@@ -3,6 +3,7 @@
     margin:0px;
     background-color:#EDEDED;
     list-style:none;
+    width: 1250px;
  }
  #menu ul li { display: inline; }
  
@@ -26,3 +27,5 @@
     display:flex;
     justify-content:space-between;
  }
+
+ 

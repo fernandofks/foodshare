@@ -19,16 +19,21 @@ export class AppComponent {
   }
   
   inserirDados(){
+    if(this.dados.preco == "" || this.dados.comida == "" ||  this.dados.imagem == "" || this.dados.descricao == ""){
+      alert("Prencher formulário de venda!");
+    }
+    else{
     this.lista.push(this.dados);
     console.log(this.lista);
     this.dados = {preco: "", comida: "", imagem: "", descricao: ""};
     let dadosString = JSON.stringify(this.lista);
     localStorage.setItem('cards', dadosString);
   }
-
+  }
   limparDados(){
     this.lista=[];
     localStorage.clear();
   }
+
 
 }
